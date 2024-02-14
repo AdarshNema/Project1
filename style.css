@@ -1,0 +1,43 @@
+ul {
+  list-style-type: none;
+}
+.dropdown-menu {
+  right: 0 !important; /* Right-align the menu */
+}
+.quote-image {
+  position: relative;
+}
+
+.quote-image::after {
+  content: "Inspirational Quote Here"; /* Quote content */
+  position: absolute; /* Position behind image */
+  top: 10px; /* Adjust vertical position */
+  left: 20px; /* Adjust horizontal position */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  color: white; /* Text color */
+  padding: 10px; /* Add padding around text */
+  font-family: sans-serif; /* Font style */
+}
+
+/* @media (min-width: 992px) {
+  .order-lg-1 {
+      order: -1;
+  }
+} */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.subsection {
+  flex: 1;
+  margin-right: 20px; /* Adjust as needed for spacing */
+}
+
+.rw {
+  float: right;
+  margin-left: 0;
+  width: 20%;
+  margin-top: -21%;
+}
